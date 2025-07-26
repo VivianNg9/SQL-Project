@@ -62,7 +62,6 @@ ORDER BY
     EXTRACT(YEAR FROM CAST(ORDER_DATE AS DATE)), EXTRACT(QUARTER FROM CAST(ORDER_DATE AS DATE));
 
 
---QUESTION 2:
 /* The impact of different discount levels on sales performance across product categories,
 specifically looking at the number of orders and total profit generated for each discount classification*/
 
