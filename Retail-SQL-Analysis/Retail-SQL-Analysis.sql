@@ -1,48 +1,4 @@
 
-CREATE TABLE customers (
-    ID VARCHAR (20) PRIMARY KEY,
-    NAME VARCHAR(100),
-    SEGMENT VARCHAR(50),
-    COUNTRY VARCHAR(50),
-    CITY VARCHAR(50),
-    STATE VARCHAR(50),
-    POSTAL_CODE INT,
-    REGION VARCHAR(50)
-);
-
-CREATE TABLE employees (
-    ID_EMPLOYEE INT PRIMARY KEY,
-    NAME VARCHAR(100),
-    CITY VARCHAR(50),
-    REGION VARCHAR(50)
-);
-
-CREATE TABLE product (
-    ID VARCHAR(100) PRIMARY KEY,
-    NAME VARCHAR(50),
-    CATEGORY VARCHAR(50),
-    SUBCATEGORY VARCHAR(200)
-);
-
-SELECT * FROM product
-
-
-CREATE TABLE orders (
-    ROW_ID INT PRIMARY KEY,
-    ORDER_ID VARCHAR(20),
-    ORDER_DATE TEXT,
-    SHIP_DATE TEXT,
-    SHIP_MODE VARCHAR(50),
-    CUSTOMER_ID VARCHAR REFERENCES customers(ID),
-    PRODUCT_ID VARCHAR REFERENCES product(ID),
-    SALES NUMERIC,
-    QUANTITY INT,
-    DISCOUNT NUMERIC,
-    PROFIT NUMERIC,
-    ID_EMPLOYEE INT REFERENCES employees(ID_EMPLOYEE)
-);
-
-
 /* The total sales of furniture products, grouped by each quarter of the year, and order the results chronologically.*/
 
 SELECT 
