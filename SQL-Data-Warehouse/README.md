@@ -37,23 +37,16 @@ These insights enable data-driven decision-making across business stakeholders.
 
 ## 📂 Repository Structure
 
-data-warehouse-project/
-│
-├── datasets/ # Raw ERP & CRM datasets (CSV)
-│
-├── docs/ # Documentation & architecture diagrams
-│ ├── data_architecture.drawio
-│ ├── etl.drawio
-│ ├── data_models.drawio
-│ ├── data_flow.drawio
-│ ├── data_catalog.md
-│ └── naming-conventions.md
-│
-├── scripts/
-│ ├── bronze/ # Raw data load scripts
-│ ├── silver/ # Data cleansing & transformations
-│ └── gold/ # Star schema & reporting models
-│
-├── tests/ # Data validation and quality checks
-│
-├── README.md # Project overview and instructions
+
+---
+
+## 🗂️ Folder Highlights
+
+- **[`datasets/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60datasets%2F%60)**: Contains raw ERP and CRM data inputs.
+- **[`docs/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60docs%2F%60)**: Visuals and documentation for architecture, ETL, and naming standards.
+- **[`scripts/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60scripts%2F%60)**: Organized ETL logic across Bronze → Silver → Gold layers.
+- **[`tests/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60tests%2F%60)**: Ensures data quality and transformation accuracy.
+- **[`README.md`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60README.md%60)**: Entry point for understanding and using the project.
+- **[`requirements.txt`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60requirements.txt%60)**: Lists required libraries and dependencies.
+
+Would you like help generating a sample `README.md` or a `data_catalog.md` template next?
