@@ -38,10 +38,6 @@ These insights enable data-driven decision-making across business stakeholders.
 ## 📂 Repository Structure
 
 
----
-
-## 🗂️ Folder Highlights
-
 - **[`datasets/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60datasets%2F%60)**: Contains raw ERP and CRM data inputs.
 - **[`docs/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60docs%2F%60)**: Visuals and documentation for architecture, ETL, and naming standards.
 - **[`scripts/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60scripts%2F%60)**: Organized ETL logic across Bronze → Silver → Gold layers.
