@@ -163,7 +163,7 @@ Fast shipping is not inherently bad for margin – **except** in the **South**, 
 
 ---
 
-## Why this project is valuable (for business & for you as a data analyst)
+## Summary
 
 - Shows **end-to-end use of SQL**: from building an **analytics-ready view** to advanced techniques like:
   - CTEs to structure business logic (discount bands, RFM, cohorts)
