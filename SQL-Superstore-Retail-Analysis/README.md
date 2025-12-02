@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project uses **advanced SQL in PostgreSQL** to perform a deep-dive analytics study on a classic **Superstore retail dataset** (9,994 order lines; **$2.30M** in revenue; **$286K** in profit; **793 customers; 5,009 orders**).
+This project uses **PostgreSQL** to perform a deep-dive analytics study on a classic **E-commerce sales dataset** (9,994 order lines; **$2.30M** in revenue; **$286K** in profit; **793 customers; 5,009 orders**).
 
 By joining **customers, employees, products and orders** and layering **CTEs, window functions and statistical functions (`corr`)**, the analysis moves past “top 10 products” and answers questions a real business would care about:
 
@@ -12,8 +12,6 @@ By joining **customers, employees, products and orders** and layering **CTEs, wi
 - Which **customers and salespeople** are building **high-quality, sustainable revenue** – and which ones are actually **unprofitable**?
   
 ---
-
-## Headline Business Insights
 
 ### 1️⃣ [Segment & Region]()
 
