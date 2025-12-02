@@ -1,8 +1,8 @@
-# Superstore Retail SQL Analysis – Pricing, Profitability & Customer Value
+# E-Commerce Sales SQL Analysis
 
 ## Overview
 
-This project uses **advanced SQL in PostgreSQL** to perform a deep-dive analytics study on a classic **Superstore retail dataset** (9,994 order lines; **$2.30M** in revenue; **$286K** in profit; **793 customers; 5,009 orders**).
+This project uses **PostgreSQL** to perform a deep-dive analytics study on a classic **E-commerce sales dataset** (9,994 order lines; **$2.30M** in revenue; **$286K** in profit; **793 customers; 5,009 orders**).
 
 By joining **customers, employees, products and orders** and layering **CTEs, window functions and statistical functions (`corr`)**, the analysis moves past “top 10 products” and answers questions a real business would care about:
 
@@ -10,14 +10,10 @@ By joining **customers, employees, products and orders** and layering **CTEs, wi
 - Where are discounts **creating value** vs **destroying margin**?
 - Which **categories and subcategories** should we **grow, fix or exit**?
 - Which **customers and salespeople** are building **high-quality, sustainable revenue** – and which ones are actually **unprofitable**?
-
-All queries are written in **T-SQL style but executed in PostgreSQL**, making this a strong, portfolio-ready example of **SQL used as an analytics and decision-making tool**, not just a data extraction tool.
-
+  
 ---
 
-## Headline Business Insights
-
-### 1️⃣ Segment & Region – not all revenue is created equal
+### 1️⃣ [Segment & Region]()
 
 - **Total performance**  
   - Revenue: **$2.30M**  
@@ -75,7 +71,7 @@ The company is **subsidising low-margin Furniture** with **high-margin Office Su
 
 ### 3️⃣ Discounts – where profitability silently dies
 
-Using SQL CTEs and banding on `DISCOUNT`, we see a very sharp pattern:
+Using SQL CTEs and banding on `DISCOUNT`, we can see:
 
 | Discount band | Sales      | Profit       | Margin   | Share of Sales |
 |---------------|-----------:|------------:|--------:|---------------:|
@@ -165,7 +161,7 @@ Fast shipping is not inherently bad for margin – **except** in the **South**, 
 
 ## Summary
 
-- Shows **end-to-end use of SQL**: from building an **analytics-ready view** to advanced techniques like:
+- Shows **end-to-end use of SQL**:
   - CTEs to structure business logic (discount bands, RFM, cohorts)
   - **Window functions** (`RANK`, `NTILE`, `LAG`, running totals)
   - **Correlation analysis** (`corr`) for **discount–profit sensitivity**
@@ -176,4 +172,4 @@ Fast shipping is not inherently bad for margin – **except** in the **South**, 
   - **Salesforce performance and incentive design**
   - **Regional and operational optimisation**
 
-This repository is not just a “Superstore dataset” exercise – it is positioned as a **retail strategy case study powered by SQL**, showing how you can turn raw orders into **clear, commercially meaningful recommendations**.
+
