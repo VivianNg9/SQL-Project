@@ -176,4 +176,4 @@ Fast shipping is not inherently bad for margin – **except** in the **South**, 
   - **Salesforce performance and incentive design**
   - **Regional and operational optimisation**
 
-This repository is not just a “Superstore dataset” exercise – it is positioned as a **retail strategy case study powered by SQL**, showing how you can turn raw orders into **clear, commercially meaningful recommendations**.
+
