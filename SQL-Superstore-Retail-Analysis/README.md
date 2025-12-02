@@ -1,4 +1,4 @@
-# Superstore Retail SQL Analysis – Pricing, Profitability & Customer Value
+# E-Commerce Sale SQL Analysis
 
 ## Overview
 
