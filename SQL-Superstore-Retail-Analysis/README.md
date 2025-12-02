@@ -1,4 +1,4 @@
-# E-Commerce Sale SQL Analysis
+# E-Commerce Sales SQL Analysis
 
 ## Overview
 
