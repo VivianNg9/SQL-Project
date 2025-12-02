@@ -161,7 +161,7 @@ Fast shipping is not inherently bad for margin – **except** in the **South**, 
 
 ## Summary
 
-- Shows **end-to-end use of SQL**: from building an **analytics-ready view** to advanced techniques like:
+- Shows **end-to-end use of SQL**:
   - CTEs to structure business logic (discount bands, RFM, cohorts)
   - **Window functions** (`RANK`, `NTILE`, `LAG`, running totals)
   - **Correlation analysis** (`corr`) for **discount–profit sensitivity**
