@@ -75,7 +75,7 @@ The company is **subsidising low-margin Furniture** with **high-margin Office Su
 
 ### 3️⃣ Discounts – where profitability silently dies
 
-Using SQL CTEs and banding on `DISCOUNT`, we see a very sharp pattern:
+Using SQL CTEs and banding on `DISCOUNT`, we can see:
 
 | Discount band | Sales      | Profit       | Margin   | Share of Sales |
 |---------------|-----------:|------------:|--------:|---------------:|
