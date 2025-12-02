@@ -10,14 +10,12 @@ By joining **customers, employees, products and orders** and layering **CTEs, wi
 - Where are discounts **creating value** vs **destroying margin**?
 - Which **categories and subcategories** should we **grow, fix or exit**?
 - Which **customers and salespeople** are building **high-quality, sustainable revenue** – and which ones are actually **unprofitable**?
-
-All queries are written in **T-SQL style but executed in PostgreSQL**, making this a strong, portfolio-ready example of **SQL used as an analytics and decision-making tool**, not just a data extraction tool.
-
+  
 ---
 
 ## Headline Business Insights
 
-### 1️⃣ Segment & Region – not all revenue is created equal
+### 1️⃣ [Segment & Region]()
 
 - **Total performance**  
   - Revenue: **$2.30M**  
