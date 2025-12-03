@@ -13,7 +13,7 @@ By joining **customers, employees, products and orders** and layering **CTEs, wi
   
 ---
 
-### 1️⃣ [Segment & Region]()
+### 1️⃣ [Customer Segment Profitability](https://github.com/VivianNg9/SQL-Project/blob/main/SQL-E-commerce-Sales-Analysis/Query1.sql)
 
 - **Total performance**  
   - Revenue: **$2.30M**  
@@ -39,7 +39,8 @@ By joining **customers, employees, products and orders** and layering **CTEs, wi
 
 ---
 
-### 2️⃣ Portfolio Reality – Furniture vs Office Supplies & Tech
+### 2️⃣ [Category Margin Performance](https://github.com/VivianNg9/SQL-Project/blob/main/SQL-E-commerce-Sales-Analysis/Query2.sql)
+Portfolio Reality – Furniture vs Office Supplies & Tech
 
 - **Category performance**
 
@@ -69,7 +70,7 @@ The company is **subsidising low-margin Furniture** with **high-margin Office Su
 
 ---
 
-### 3️⃣ Discounts – where profitability silently dies
+### 3️⃣ [Discount Impact on Margin](https://github.com/VivianNg9/SQL-Project/blob/main/SQL-E-commerce-Sales-Analysis/Query3.sql)
 
 Using SQL CTEs and banding on `DISCOUNT`, we can see:
 
@@ -108,7 +109,7 @@ Discounts **above 20% are structurally unprofitable**, and **Furniture is extrem
 
 ---
 
-### 4️⃣ Customer Behaviour – loyalty quietly powers the business
+### 4️⃣ [Loyalty-Driven Revenue](https://github.com/VivianNg9/SQL-Project/blob/main/SQL-E-commerce-Sales-Analysis/Query4.sql)
 
 Using window functions and CTEs over orders and customers, we segment by **order count (loyalty)**:
 
@@ -134,7 +135,7 @@ This is a **relationship-driven business**: **repeat customers and high-RFM coho
 
 ---
 
-### 5️⃣ Operations & Regional Nuances – where execution erodes value
+### 5️⃣ [Regional Shipping Profitability](https://github.com/VivianNg9/SQL-Project/blob/main/SQL-E-commerce-Sales-Analysis/Query5.sql)
 
 SQL window functions over shipping lead times and regional joins show:
 
