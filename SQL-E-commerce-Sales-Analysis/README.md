@@ -158,19 +158,6 @@ Fast shipping is not inherently bad for margin – **except** in the **South**, 
 > - **Re-price or limit Same-Day** in the South (higher fees or restricted zones).  
 > - Keep leveraging Same-Day / First Class in stronger regions as a **value-added service**, not a margin killer.
 
----
 
-## Summary
-
-- Shows **end-to-end use of SQL**:
-  - CTEs to structure business logic (discount bands, RFM, cohorts)
-  - **Window functions** (`RANK`, `NTILE`, `LAG`, running totals)
-  - **Correlation analysis** (`corr`) for **discount–profit sensitivity**
-- Demonstrates how SQL can **directly support decisions** in:
-  - **Pricing & discount policy**
-  - **Product & assortment strategy**
-  - **Customer segmentation and CLV-style thinking**
-  - **Salesforce performance and incentive design**
-  - **Regional and operational optimisation**
 
 
