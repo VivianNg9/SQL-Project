@@ -10,7 +10,9 @@ By joining **customers, employees, products and orders** and layering **CTEs, wi
 - Where are discounts **creating value** vs **destroying margin**?
 - Which **categories and subcategories** should we **grow, fix or exit**?
 - Which **customers and salespeople** are building **high-quality, sustainable revenue** – and which ones are actually **unprofitable**?
-  
+
+![image](https://github.com/VivianNg9/SQL-Project/blob/main/SQL-E-commerce-Sales-Analysis/ERD.png)
+
 ---
 
 ### 1️⃣ [Customer Segment Profitability](https://github.com/VivianNg9/SQL-Project/blob/main/SQL-E-commerce-Sales-Analysis/Query1.sql)
