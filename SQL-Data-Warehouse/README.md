@@ -44,5 +44,3 @@ These insights enable data-driven decision-making across business stakeholders.
 - **[`tests/`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60tests%2F%60)**: Ensures data quality and transformation accuracy.
 - **[`README.md`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60README.md%60)**: Entry point for understanding and using the project.
 - **[`requirements.txt`](guide://action?prefill=Tell%20me%20more%20about%3A%20%60requirements.txt%60)**: Lists required libraries and dependencies.
-
-Would you like help generating a sample `README.md` or a `data_catalog.md` template next?
