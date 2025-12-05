@@ -1,6 +1,7 @@
 <h1 align="center">Data Warehouse & Analytics SQL Project</h1>
+---
 
-This project showcases a complete end-to-end **Data Warehouse and Analytics** solution by using Microsoft SQL Server (Azure Data Studio on Mac). It follows modern data engineering best practices — from ingesting raw data to delivering business-ready insights through analytical data models.
+This project showcases a complete end-to-end **Data Warehouse and Analytics** solution by using Microsoft SQL Server. It follows modern data engineering best practices — from ingesting raw data to delivering business-ready insights through analytical data models.
 ---
 
 ## 🏗️ Data Architecture
